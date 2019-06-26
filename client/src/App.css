@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #282c34;
+}
+.App h1 {
+  color: white;
+}
+
+.search input {
+  height: 30px;
+  width: 500px;
+}
+
+.movie-block {
+  margin-top: 10px;
+  color: white;
+  vertical-align: middle;
+}
+
+.movie-block button {
+  background-color: Transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.movie-block button:hover { 
+  background-color: black;
+}
+
+.movie-details {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+}
+
+.movie-details-block {
+  margin: 10px;
+}
+
+.movie-image img {
+  max-width: 100px;
+}
+
+.movie-details-item {
+  font-size: 12px;
+  text-align: left;
+}
+
+.movie-details-item label {
+  font-weight: bold;
+}
